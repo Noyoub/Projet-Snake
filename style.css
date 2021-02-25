@@ -146,11 +146,12 @@ nav h1{
 #steps ul{
   display: flex;
   flex-flow:wrap;
+  margin-right: 8%;
   justify-content: center;
 }
 
 #steps ul li{
-  width: 300px;
+  width: 200px;
   padding-top: 140px;
   text-align: center;
   margin: 30px 10px;
@@ -188,10 +189,16 @@ nav h1{
 }
 
 #possibilities article{
-  width: 300px;
+  width: 400px;
   height: 270px; 
   border-radius: 10px;
   margin: 30px;
+}
+
+@media (max-width: 600px){
+  #possibilities article{
+    width: 300px;
+  }
 }
 
 #possibilities article:first-child{
