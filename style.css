@@ -146,8 +146,14 @@ nav h1{
 #steps ul{
   display: flex;
   flex-flow:wrap;
-  margin-right: 8%;
+  margin-right: 4%;
   justify-content: center;
+}
+
+@media (max-width: 600px){
+  #steps ul{
+    margin-right: 8%;
+  }
 }
 
 #steps ul li{
